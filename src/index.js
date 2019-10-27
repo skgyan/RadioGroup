@@ -42,6 +42,12 @@ function App() {
             checked={genderValue === "female"}
             {...genderInputProps}
           />
+          Don't want to specify
+          <input
+            value="Don't want to specify"
+            checked={genderValue === "Don't want to specify"}
+            {...genderInputProps}
+          />
         </fieldset>
       </form>
     </div>
